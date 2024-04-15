@@ -1,7 +1,14 @@
+	/*
+ 		simple program for converting
+   		celcius,kelvin and fahrenheit values
+     		user enters
+       		written by zeynepsturan
+ 	*/
 #include <stdio.h>
-#include "degree.h"
+#include "degree.h" /*the library for converting functions*/
 
 int main(){
+	/*variable declarations*/
 	double celcius,kelvin,fahrenheit;
 	char option;
 
