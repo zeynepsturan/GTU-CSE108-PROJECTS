@@ -1,13 +1,22 @@
+	/*
+ 		a 4 part program
+   		1- filling an array with user inputs
+     		2- counting the prime numbers in that array
+       		3- comparing two arrays index by index
+	 	4- searching a word in the given array
+ 	*/
 #include <stdio.h>
+/*function declarations*/
 int countPrimes(double array[],int size),isPrime(int x);
 void fillArray(double array[],int size);
 void compareArrays(double array1[],double array2[],int result_array[],int size);
 int searchQuery(char text[],char word[]);
 
 int main(){
+	/*variable declarations*/
 	int i,size,prime_count,search_result;
 
-  //part 1
+  	//part 1
 	printf("Please enter the size of the arrays: ");
 	scanf("%d",&size);
 
