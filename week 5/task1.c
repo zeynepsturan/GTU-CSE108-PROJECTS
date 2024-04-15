@@ -1,3 +1,7 @@
+	/*
+ 		simple calculator but uses typedef
+   		written by: zeynepsturan
+ 	*/
 #include <stdio.h>
 typedef enum Operation {ADDITION, SUBTRACTION, MULTIPLICATION, DIVISION} optype;
 
