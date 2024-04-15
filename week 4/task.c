@@ -1,8 +1,17 @@
+	/*
+ 		the program with two choices first 
+   		one is creating a pascal triangle 
+     		and second one is a diamond pattern
+       		which uses the pascal triangle logic
+   		written by: zeynepsturan
+	*/
 #include <stdio.h>
+/*function declarations*/
 void pascal_triangle(int x),diamond_pattern(int x);
 int combination(int n,int r);
 int factorial(int n);
 int main(){
+	/*variable declarations*/
 	int flag=1;
 	int choice;
 	int size;
@@ -42,6 +51,7 @@ int main(){
 	return 0;
 }
 
+/*factorial and combination is used to create the pascal triangle*/
 int factorial(int n){
 	int result=1;
 	while(n>=1){
