@@ -1,6 +1,6 @@
   /*
-    simple guess the number game
-    written by zeynepsturan
+	simple guess the number game
+	written by zeynepsturan
   */
 #include <stdio.h>
 #include <stdlib.h> /*this libraries are needed to use random functions*/
